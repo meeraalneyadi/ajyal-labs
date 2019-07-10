@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <body>
+        <form>
+            <fieldset>
+                <langend>registration</langend>
+                <label>username: <input name="text" type="text" pattern="[a-z]"></label>
+                <label>Password: <input name="password" type="password" minlength="2"> </label>
+
+            </fieldset>
+            <fieldset>
+                <input type="radio" name="sex" id="male"> <label for="male">Male</label>
+                <input type="radio" name="sex" id="female"> <label for="female">Female</label> </fieldset>
+                <fieldset>
+                    <label for="file-select">Upload form:</label> <input type="file" name="upload" id="file-select">
+                    </fieldset>
+
+            Name : <input type="text" pattern="[a-z]" />
+        <!-- [a-zA-Z0-9_] ^[0-9]$ -->
+                    <fieldset>
+                    <label for="address">Address:</label>
+                    <textarea rows="3" cols="30" name="address"
+                    id="address"></textarea>
+                    </fieldset>
+                    <input type="submit" value="Submit">  
+                    <input type="date"  />
+                    <input type="email" name="email" required="email" minlength="10" maxlength="11" />
+                    <input type="number" name="number" required="mumber" minlength="10" maxlength="11"/>
+
+
+        </form>
+    </body>
+</html>
